@@ -31,7 +31,7 @@ Next we need to setup our ShareX to use the custom uploader
 1. From the ShareX main application we go to Destinations > Destination Settings
 2. Scroll down to 'custom uploaders' add a new profile
 3. Request type POST, the url should be http://www.example.com/upload.php
-4. File from name `d'
+4. File from name: d
 5. Arguments are:
     - key, this should be set to the 'secure key' you set in your config.php
     - name, this is how the files will be named, for mine, i use '%h.%mi.%s-%d.%mo.%yy'
